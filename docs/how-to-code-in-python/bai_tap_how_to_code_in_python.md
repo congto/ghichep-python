@@ -16,6 +16,7 @@ X-DSPAM-Confidence: 0.8475
 X-DSPAM-Confidence: 0.6178
 X-DSPAM-Confidence: 0.9846
 ...
+```
 
 Sau khi hiển thị được các dòng bắt đầu là chuỗi `X-DSPAM-Confidence:`  thực hiện tác các giá trị sau dấu hai chấm để tính giá trị trung bình và in ra màn hình theo dạng dưới đây:
 
