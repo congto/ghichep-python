@@ -6,8 +6,22 @@
 Cho file mẫu với nội dung chứa log về việc gửi nhận email theo link: `https://www.py4e.com/code3/mbox-short.txt`
 
 Trong file này, các dòng bắt đầu với cụm từ  `X-DSPAM-Confidence:` sẽ chứa giá trị đánh giá mức độ spam.
+```
+Date: Fri, 4 Jan 2008 18:08:57 -0500
+X-Authentication-Warning: nakamura.uits.iupui.edu: apache set sender to louis@media.berkeley.edu using -f
+To: source@collab.sakaiproject.org
+From: louis@media.berkeley.edu
+Subject: [sakai] svn commit: r39771 - in bspace/site-manage/sakai_2-4-x/site-manage-tool/tool/src: bundle java/org/sakaiproject/site/tool
+X-Content-Type-Outer-Envelope: text/plain; charset=UTF-8
+X-Content-Type-Message-Body: text/plain; charset=UTF-8
+Content-Type: text/plain; charset=UTF-8
+X-DSPAM-Result: Innocent
+X-DSPAM-Processed: Fri Jan  4 18:10:48 2008
+X-DSPAM-Confidence: 0.6178
+X-DSPAM-Probability: 0.0000
 
-![DSPAM](https://image.prntscr.com/image/dIlcIJtOQgysej3oqznJjg.png)
+Details: http://source.sakaiproject.org/viewsvn/?view=rev&rev=39771
+```
 
 Hãy viết một chương trình cho phép lọc ra các dòng bắt đầu với chuỗi `X-DSPAM-Confidence:` ở trên theo dạng
 
